@@ -187,6 +187,7 @@ body {
     .banner__box {
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 30px;
         gap:20px;
     }
     .banner__title {
