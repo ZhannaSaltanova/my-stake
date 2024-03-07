@@ -531,7 +531,15 @@ footer {
  }
 .lang {
     display: flex;
+    padding: 10px;
  }
+.lang:hover {
+    background-color:#fff;
+}
+.lang:hover .lang__desc {
+    color:#000;
+    cursor: pointer;
+}
 .lang__img { 
     width: 100%;
     max-width: 18px;
