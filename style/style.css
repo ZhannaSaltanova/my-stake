@@ -17,7 +17,8 @@
     src: url(../fonts/Poppins-SemiBold.ttf) format(truetype);
     font-weight: 600;
     font-display: swap;
-}body {
+}
+body {
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +38,7 @@
     padding-right: 2%;
 }
 .logo {
-    width: 150px;
+    width: 100%;
     max-width: 150px;
 }
 .navbar {
@@ -425,6 +426,9 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+.text-btn img {
+    width: 70%;
 }
 .text__img {
     width: 80%;
